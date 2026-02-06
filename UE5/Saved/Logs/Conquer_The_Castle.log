@@ -8193,3 +8193,9 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.06-17.37.09:470][693]AssetCheck: /Game/ThirdPerson/Blueprints/WBP_HUD Validating asset
+[2026.02.06-17.37.35:766][921]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 16175
+[2026.02.06-17.37.35:767][921]LogSlate: Warning: Setting the threshold to trigger a flush to 3 non-atlased textures as there is a lot of font data being cached.
+[2026.02.06-17.37.35:767][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.38.29:431][ 82]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1024.358643
+[2026.02.06-17.38.30:436][ 85]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.06-17.38.30:436][ 85]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1025.025269, Update Interval: 305.438385
