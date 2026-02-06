@@ -73,3 +73,10 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+
+UE5/Binaries/
+UE5/DerivedDataCache/
+UE5/Intermediate/
+UE5/Saved/
