@@ -8054,3 +8054,142 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.06-17.29.23:554][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.06-17.29.23:554][228]AssetCheck: /Game/Fonts/MedievalSharp-Regular Validating asset
 [2026.02.06-17.29.26:138][345]AssetReimport: Importing new asset /Game/Fonts/MedievalSharp-Regular.
+[2026.02.06-17.32.51:881][371]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.02.06-17.32.51:900][371]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.02.06-17.32.59:599][774]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 694.524719
+[2026.02.06-17.32.59:811][785]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.06-17.32.59:811][785]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 694.716675, Update Interval: 323.137909
+[2026.02.06-17.33.16:802][641]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Mainmenu.Mainmenu
+[2026.02.06-17.33.16:803][641]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.06-17.33.16:810][641]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.06-17.33.16:822][641]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.02.06-17.33.17:514][641]LogSlate: Took 0.007453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.02.06-17.33.21:463][856]LogStreaming: Display: FlushAsyncLoading(3381): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.06-17.34.21:614][672]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.02.06-17.34.28:048][  9]LogSlate: Warning: FSlateFontInfo property 'Font.FontObject' on object '/Engine/Transient.World_3:Mainmenu_C_1.WidgetTree_0.Text_Play' was set to use a null UFont. Slate will be forced to use the fallback font path which may be slower.
+[2026.02.06-17.34.28:053][  9]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.02.06-17.34.28:067][  9]LogSlate: Took 0.011880 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.02.06-17.34.58:576][739]LogContentBrowser: Attempting asset rename: MedievalSharp-Regular_Font -> MedievalFont
+[2026.02.06-17.34.58:717][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.06-17.34.58:717][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fonts/MedievalFont] ([1] browsable assets)...
+[2026.02.06-17.34.58:721][739]OBJ SavePackage:     Rendered thumbnail for [Font /Game/Fonts/MedievalFont.MedievalFont]
+[2026.02.06-17.34.58:721][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MedievalFont]
+[2026.02.06-17.34.58:721][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MedievalFont" FILE="C:/Development/da-conquerthecastle-ue5/UE5/Content/Fonts/MedievalFont.uasset" SILENT=true
+[2026.02.06-17.34.58:733][739]LogSavePackage: Moving output files for package: /Game/Fonts/MedievalFont
+[2026.02.06-17.34.58:733][739]LogSavePackage: Moving 'C:/Development/da-conquerthecastle-ue5/UE5/Saved/MedievalFont40DCBEC74AFB34D36CC2CD8099A5A088.tmp' to 'C:/Development/da-conquerthecastle-ue5/UE5/Content/Fonts/MedievalFont.uasset'
+[2026.02.06-17.34.58:734][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.339 ms (total: 327.506 ms)
+[2026.02.06-17.34.58:817][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.02.06-17.34.58:854][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.06-17.34.58:889][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.02.06-17.34.58:974][739]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.06-17.34.58:974][739]LogContentValidation: Enabled validators:
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.06-17.34.58:974][739]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.06-17.34.58:974][739]AssetCheck: /Game/Fonts/MedievalFont Validating asset
+[2026.02.06-17.34.59:065][739]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Development/da-conquerthecastle-ue5/UE5/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.06-17.35.04:939][ 76]LogContentBrowser: Attempting asset rename: MedievalFont -> MedievalFont
+[2026.02.06-17.35.31:245][635]LogContentBrowser: Attempting asset rename: MedievalSharp-Regular -> MedievalSharp-Regular
+[2026.02.06-17.35.59:907][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.06-17.35.59:988][196]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Mainmenu] ([2] browsable assets)...
+[2026.02.06-17.35.59:994][196]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Mainmenu.Mainmenu]
+[2026.02.06-17.35.59:994][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Mainmenu]
+[2026.02.06-17.35.59:994][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Mainmenu" FILE="C:/Development/da-conquerthecastle-ue5/UE5/Content/UI/Mainmenu.uasset" SILENT=true
+[2026.02.06-17.36.00:046][196]LogSavePackage: Moving output files for package: /Game/UI/Mainmenu
+[2026.02.06-17.36.00:047][196]LogSavePackage: Moving 'C:/Development/da-conquerthecastle-ue5/UE5/Saved/Mainmenu133B57474DE60EC7EFC94D906ABB9E4C.tmp' to 'C:/Development/da-conquerthecastle-ue5/UE5/Content/UI/Mainmenu.uasset'
+[2026.02.06-17.36.00:059][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.639 ms (total: 479.145 ms)
+[2026.02.06-17.36.00:136][196]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.06-17.36.00:136][196]LogContentValidation: Enabled validators:
+[2026.02.06-17.36.00:136][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.06-17.36.00:136][196]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.06-17.36.00:137][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.06-17.36.00:137][196]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.06-17.36.00:137][196]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.06-17.36.00:137][196]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.06-17.36.00:138][196]AssetCheck: /Game/UI/Mainmenu Validating asset
+[2026.02.06-17.36.01:797][291]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.01:797][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.01:809][291]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.01:809][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.01:875][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2026.02.06-17.36.08:842][695]LogStatusBar: Looking status bar with open content browser drawer...
+[2026.02.06-17.36.08:842][695]LogStatusBar: StatusBar: LevelEditor.StatusBar was content browser was not opened
+[2026.02.06-17.36.08:842][695]LogStatusBar: Using status bar: BlueprintEditorApp_0 to dock content browser
+[2026.02.06-17.36.14:775][971]LogSlate: Window 'Content Browser 2' being destroyed
+[2026.02.06-17.36.21:759][343]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/LoadingScreen.LoadingScreen
+[2026.02.06-17.36.21:759][343]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.02.06-17.36.21:770][343]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.02.06-17.36.30:757][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.06-17.36.30:804][795]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/LoadingScreen] ([2] browsable assets)...
+[2026.02.06-17.36.30:807][795]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/LoadingScreen.LoadingScreen]
+[2026.02.06-17.36.30:807][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/LoadingScreen]
+[2026.02.06-17.36.30:807][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen" FILE="C:/Development/da-conquerthecastle-ue5/UE5/Content/UI/LoadingScreen.uasset" SILENT=true
+[2026.02.06-17.36.30:827][795]LogSavePackage: Moving output files for package: /Game/UI/LoadingScreen
+[2026.02.06-17.36.30:828][795]LogSavePackage: Moving 'C:/Development/da-conquerthecastle-ue5/UE5/Saved/LoadingScreen6BECE30545529DBD1BE32C9D362BA5FF.tmp' to 'C:/Development/da-conquerthecastle-ue5/UE5/Content/UI/LoadingScreen.uasset'
+[2026.02.06-17.36.30:838][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.952 ms (total: 560.097 ms)
+[2026.02.06-17.36.30:903][795]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.06-17.36.30:903][795]LogContentValidation: Enabled validators:
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.06-17.36.30:903][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.06-17.36.30:904][795]AssetCheck: /Game/UI/LoadingScreen Validating asset
+[2026.02.06-17.36.32:265][874]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.32:265][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.32:275][874]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.32:275][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.32:378][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.02.06-17.36.33:645][949]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.33:646][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.33:723][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.02.06-17.36.41:198][305]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.02.06-17.36.42:613][362]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/Blueprints/WBP_DeathScreen.WBP_DeathScreen
+[2026.02.06-17.36.42:613][362]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.02.06-17.36.42:621][362]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.02.06-17.36.56:062][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.06-17.36.56:152][ 69]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/WBP_DeathScreen] ([2] browsable assets)...
+[2026.02.06-17.36.56:158][ 69]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/WBP_DeathScreen.WBP_DeathScreen]
+[2026.02.06-17.36.56:158][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/WBP_DeathScreen]
+[2026.02.06-17.36.56:158][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/WBP_DeathScreen" FILE="C:/Development/da-conquerthecastle-ue5/UE5/Content/ThirdPerson/Blueprints/WBP_DeathScreen.uasset" SILENT=true
+[2026.02.06-17.36.56:184][ 69]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/WBP_DeathScreen
+[2026.02.06-17.36.56:185][ 69]LogSavePackage: Moving 'C:/Development/da-conquerthecastle-ue5/UE5/Saved/WBP_DeathScreen6A3786634369C8E5359AABB7DA7376C2.tmp' to 'C:/Development/da-conquerthecastle-ue5/UE5/Content/ThirdPerson/Blueprints/WBP_DeathScreen.uasset'
+[2026.02.06-17.36.56:195][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.928 ms (total: 693.025 ms)
+[2026.02.06-17.36.56:251][ 69]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.06-17.36.56:251][ 69]LogContentValidation: Enabled validators:
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.06-17.36.56:252][ 69]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.06-17.36.56:252][ 69]AssetCheck: /Game/ThirdPerson/Blueprints/WBP_DeathScreen Validating asset
+[2026.02.06-17.36.57:649][149]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.57:649][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.57:659][149]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.02.06-17.36.57:659][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.06-17.36.57:742][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2026.02.06-17.37.01:903][335]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/Blueprints/WBP_HUD.WBP_HUD
+[2026.02.06-17.37.01:903][335]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.02.06-17.37.01:912][335]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.02.06-17.37.09:274][693]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.06-17.37.09:354][693]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/WBP_HUD] ([2] browsable assets)...
+[2026.02.06-17.37.09:358][693]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/WBP_HUD.WBP_HUD]
+[2026.02.06-17.37.09:358][693]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/WBP_HUD]
+[2026.02.06-17.37.09:358][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/WBP_HUD" FILE="C:/Development/da-conquerthecastle-ue5/UE5/Content/ThirdPerson/Blueprints/WBP_HUD.uasset" SILENT=true
+[2026.02.06-17.37.09:385][693]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/WBP_HUD
+[2026.02.06-17.37.09:385][693]LogSavePackage: Moving 'C:/Development/da-conquerthecastle-ue5/UE5/Saved/WBP_HUD76A11A4742421E4A202B5787465D7944.tmp' to 'C:/Development/da-conquerthecastle-ue5/UE5/Content/ThirdPerson/Blueprints/WBP_HUD.uasset'
+[2026.02.06-17.37.09:395][693]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.563 ms (total: 814.589 ms)
+[2026.02.06-17.37.09:469][693]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.06-17.37.09:469][693]LogContentValidation: Enabled validators:
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.06-17.37.09:469][693]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.06-17.37.09:470][693]AssetCheck: /Game/ThirdPerson/Blueprints/WBP_HUD Validating asset
